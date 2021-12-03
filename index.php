@@ -134,6 +134,13 @@ $qa = [
             </div>
             <h2>Privacy & Terms</h2>
         </div>
+        <ul class="index_container">
+            <?php foreach ($indexes as $index) { ?>
+                <li class=" <?php echo $index['isActive'] == true ? "selected" : "mute" ?>">
+                    <?php echo $index['title']?>
+                </li>
+            <?php } ?>
+        </ul>
     </header>
     <!-- ./HEADER -->
 </body>
