@@ -143,5 +143,20 @@ $qa = [
         </ul>
     </header>
     <!-- ./HEADER -->
+    
+    <main>
+        <?php foreach ($qa as $faq) { ?>
+            <h2>
+                <?php echo $faq['question'] ?>
+            </h2>
+
+            <?php foreach ($faq['answers'] as $answer) { ?>
+                <p>
+                    <?php echo $answer ?>
+                </p>
+                
+            <?php } ?>
+       <?php } ?>
+    </main>
 </body>
 </html>

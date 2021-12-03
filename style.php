@@ -34,3 +34,10 @@ li{
 .mute{
     border-bottom: 2px solid transparent;
 }
+
+main{
+    width: 60%;
+    margin: auto;
+    padding-top: 5rem;
+}
+
