@@ -150,12 +150,14 @@ $qa = [
                 <?php echo $faq['question'] ?>
             </h2>
 
-            <?php foreach ($faq['answers'] as $answer) { ?>
-                <p>
-                    <?php echo $answer ?>
-                </p>
-                
-            <?php } ?>
+            <div class="answers">
+                <?php foreach ($faq['answers'] as $answer) { ?>
+                    <p>
+                        <?php echo $answer ?>
+                    </p>
+                    
+                <?php } ?>
+            </div>
        <?php } ?>
     </main>
 </body>

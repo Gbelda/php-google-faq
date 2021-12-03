@@ -38,6 +38,10 @@ li{
 main{
     width: 60%;
     margin: auto;
-    padding-top: 5rem;
+    padding: 4rem 0;
+}
+
+.answers{
+    margin-bottom: 3rem;
 }
 
