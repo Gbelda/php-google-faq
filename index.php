@@ -149,6 +149,7 @@ $qa = [
             <h2>
                 <?php echo $faq['question'] ?>
             </h2>
+            <!-- ./QUESTION -->
 
             <div class="answers">
                 <?php foreach ($faq['answers'] as $answer) { ?>
@@ -158,7 +159,9 @@ $qa = [
                     
                 <?php } ?>
             </div>
+            <!-- ./ANSWERS -->
        <?php } ?>
     </main>
+    <!-- ./MAIN -->
 </body>
 </html>
