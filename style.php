@@ -10,6 +10,10 @@ header("Content-type: text/css");
     box-style: border-box,
 }
 
+header{
+    font-family: 'Lato', sans-serif;
+}
+
 .logo_container,
 .index_container{
     display: flex;
